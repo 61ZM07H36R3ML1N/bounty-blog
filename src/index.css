@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "highlight.js/styles/github-dark-dimmed.css";
 @plugin "@tailwindcss/typography";
 
 /* Customize theme tokens directly in CSS */
