@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Customize theme tokens directly in CSS */
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --color-brand: #3b82f6;
+}
