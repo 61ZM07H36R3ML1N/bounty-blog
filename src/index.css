@@ -1,9 +1,16 @@
 @import "tailwindcss";
 @import "highlight.js/styles/github-dark-dimmed.css";
+@import "highlight.js/styles/tokyo-night-dark.css";
 @plugin "@tailwindcss/typography";
 
 /* Customize theme tokens directly in CSS */
 @theme {
   --font-sans: 'Inter', sans-serif;
   --color-brand: #3b82f6;
+}
+
+pre code.hljs {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
